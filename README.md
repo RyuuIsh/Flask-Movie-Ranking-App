@@ -71,8 +71,68 @@ The application uses a SQLite database to store movie information.<br>
 The app uses The Movie Database (TMDb) API to fetch movie details.<br>
 ✅ API Endpoints:<br>
 - Search Movie: https://api.themoviedb.org/3/search/movie
-- Get Movie Details: https://api.themoviedb.org/3/movie/{id}
+- Get Movie Details: https://api.themoviedb.org/3/movie/{id}<br>
 You can obtain your own API key from TMDb API.
+
+## ⚙️ Setup & Installation
+1. Clone the Repository
+```
+git clone https://github.com/yourusername/Flask-Movie-Ranking.git
+cd Flask-Movie-Ranking
+```
+
+2. Create a Virtual Environment (Optional)
+```
+python -m venv venv
+source venv/bin/activate   # MacOS/Linux
+venv\Scripts\activate      # Windows
+```
+
+3. Install Dependencies
+```
+pip install -r requirements.txt
+```
+This will install:<br>
+Flask<br>
+Flask-WTF<br>
+Flask-SQLAlchemy<br>
+Requests<br>
+
+4. Run the Application
+```
+python main.py
+```
+Visit
+```
+http://127.0.0.1:5000/
+```
+
+## 🎨 User Flow
+1. 🚀 Open the App → Click "Add Movie"
+2. 🎬 Search a Movie Title → Select a Movie
+3. ⭐ Rate & Review the Movie → Click Submit
+4. 📊 Movie gets ranked based on rating
+5. 🗑 Delete or Edit Movie anytime
+
+## 💎 Future Enhancements
+✅ Add User Authentication (Login/Signup) 🔐<br>
+✅ Integrate Movie Trailers from YouTube 🎞<br>
+✅ Implement Pagination for large movie lists 📜<br>
+✅ Deploy the app on Render / Vercel / Railway 🚀<br>
+
+## ❤️ Contributing
+- Feel free to contribute by:
+- Adding new features.
+- Enhancing UI/UX.
+- Improving database design.
+
+## 📧 Contact Me
+💬 Developer: Ishaan Chhabra<br>
+💼 GitHub: RyuuIsh<br>
+
+💙 Add, Rate, and Manage Your Favorite Movies! 🎬🚀
+
+
 
 
 
